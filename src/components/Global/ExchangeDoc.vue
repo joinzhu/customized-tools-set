@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <script setup lang="ts">
-const handleClick = () => {
+const handleClick = (e: MouseEvent) => {
   location.href = 'http://join.eline56.com/uidoc/WBase'
 }
 </script>
