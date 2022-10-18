@@ -1,4 +1,4 @@
-import{M as u}from"./MapArea.0cf689aa.js";import{o as t,a,i as e,d,c as p,F as h,e as f,b as y,u as C,t as k,f as c,j as v,k as w,h as x}from"./index.4f475d49.js";const F={class:"markdown-body"},g=e("pre",null,[e("code",null,`import { tryCatch } from '@wise/tools'
+import{M as u}from"./MapArea.c9368b38.js";import{o as t,a,i as e,d,c as p,F as h,e as f,b as y,u as C,t as k,f as c,j as v,k as w,h as x}from"./index.82618a40.js";const F={class:"markdown-body"},g=e("pre",null,[e("code",null,`import { tryCatch } from '@wise/tools'
 /**
  * asyncFunction: \u8FD4\u56DEpromise\u7684\u5F02\u6B65\u51FD\u6570
  * params\uFF1A \u5355\u72EC\u8C03\u7528asyncFunction\u6240\u9700\u7684\u5B9E\u53C2
