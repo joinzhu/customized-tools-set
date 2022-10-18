@@ -8,7 +8,9 @@ import 'virtual:windi.css'
 import './assets/scss/global.scss'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.PROD ? '/toolsdoc/' : '/'),
+  history: createWebHistory(
+    import.meta.env.PROD ? '/customized-tools-set/' : '/'
+  ),
   routes: items
 })
 

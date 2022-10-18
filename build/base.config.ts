@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default ({ mode }) => ({
-  base: mode === 'production' ? '/toolsdoc/' : '/',
+  base: mode === 'production' ? '/customized-tools-set/' : '/',
   define: {
     'process.env': loadEnv(mode, process.cwd())
   },
