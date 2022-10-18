@@ -10,7 +10,7 @@ export default {
 </script>
 <script setup lang="ts">
 const handleClick = (e: MouseEvent) => {
-  location.href = 'https://joinzhu.github.io/customized-element-ui/WBase'
+  location.href = 'https://joinzhu.github.io/customized-element-ui/'
 }
 </script>
 
