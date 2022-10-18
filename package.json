@@ -1,0 +1,47 @@
+{
+  "name": "@wise/tools",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./lib-dist/tools.es.js",
+  "files": [
+    "package.json",
+    "lib-dist/*"
+  ],
+  "scripts": {
+    "serve": "vite -c ./build/doc.config.ts --mode development",
+    "build-lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts --mode production",
+    "build-doc": "vue-tsc --noEmit && vite build --config ./build/doc.config.ts --mode production",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "push": "npm publish",
+    "online": "npm run build-lib && npm run push"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.6",
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-plugin-vue-markdown": "^0.21.1",
+    "vite-plugin-windicss": "^1.8.7",
+    "vue-tsc": "^0.38.4",
+    "windicss": "^3.5.6"
+  },
+  "publishConfig": {
+    "@wise:registry": "http://repo.wise-inc.com/repository/npm-hosted/"
+  }
+}
