@@ -10,7 +10,7 @@ export default ({ mode }) =>
   defineConfig({
     ...baseConfig({ mode }),
     build: {
-      outDir: 'doc'
+      outDir: 'docs'
     },
     plugins: [
       vue({
@@ -18,5 +18,5 @@ export default ({ mode }) =>
       }),
       Markdown(),
       WindiCSS()
-    ],
+    ]
   })
